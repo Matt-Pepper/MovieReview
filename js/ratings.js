@@ -312,11 +312,11 @@ window.addEventListener('load', () => {
     const content = `
         <div class="movie-item">
         <h4>${element.title}</h4>
-            <img src="./images/${element.id}.jpg" alt="${element.title} movie poster." loading="lazy" />
+            <img src="./images/${element.id}.jpg" alt="${element.title} movie poster." loading="lazy" class="card-image" />
             <div>
                 <span class="movie-ranking">Top 100 Ranking: ${element.rank}</span>
                 </br>
-                <span class="movie-rating">Rating: <img src="./icons/${element.rating}.png" alt="This movie is rated ${element.rating} out of 5." loading="lazy" /></span>
+                <span class="movie-rating">Rating: <img src="./icons/${element.rating}.png" alt="This movie is rated ${element.rating} out of 5." loading="lazy" class="rating-image" /></span>
             </div>
         </div>
         `;

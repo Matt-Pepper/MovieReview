@@ -3,30 +3,40 @@ main {
 	justify-content: center;
 }
 
-main > #movie-gallery {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+#movie-gallery {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
 	gap: 10px;
 }
 
-main > #movie-gallery > .movie-item {
+.movie-item {
+	display: flex;
+	flex-direction: column;
 	background-color: rgba(255, 255, 255, 0.548);
+	width: 20vh;
 	border-radius: 5px;
 	padding: 10px;
 }
 
-main > #movie-gallery > .movie-item > div {
+.movie-item > div {
 	border: 2px solid black;
 	padding: 10px;
 	border-radius: 5px;
 	background-color: azure;
 }
 
-main > #movie-gallery > .movie-item > img {
-	width: 300px;
-	height: 450px;
+.card-image {
+	width: 100%;
+	height: auto;
 	border-radius: 5px;
 	margin-bottom: 10px;
+}
+
+.movie-image {
+	object-fit: contain;
+	margin: 5px;
+
 }
 
 h4 {
