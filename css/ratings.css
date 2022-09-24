@@ -13,8 +13,9 @@ main {
 .movie-item {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	background-color: rgba(255, 255, 255, 0.548);
-	width: 20vh;
+	width: 20%;
 	border-radius: 5px;
 	padding: 10px;
 }
@@ -24,6 +25,7 @@ main {
 	padding: 10px;
 	border-radius: 5px;
 	background-color: azure;
+	
 }
 
 .card-image {

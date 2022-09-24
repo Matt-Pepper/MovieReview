@@ -316,7 +316,7 @@ window.addEventListener('load', () => {
             <div>
                 <span class="movie-ranking">Top 100 Ranking: ${element.rank}</span>
                 </br>
-                <span class="movie-rating">Rating: <img src="./icons/${element.rating}.png" alt="This movie is rated ${element.rating} out of 5." loading="lazy" class="rating-image" /></span>
+                <span>Rating: <img src="./icons/${element.rating}.png" alt="This movie is rated ${element.rating} out of 5." loading="lazy" class="rating-image" /></span>
             </div>
         </div>
         `;
