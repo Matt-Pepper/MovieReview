@@ -1,0 +1,25 @@
+.content {
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	min-width: 500px;
+}
+
+main > .content > .contact-form {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 10px;
+	height: 200px;
+}
+
+main > .content > .contact-form > input {
+	font-size: 18pt;
+	max-height: 50px;
+}
+
+main > .content > .contact-form > label {
+	display: flex;
+	justify-content: right;
+	font-size: 18pt;
+	line-height: 50px;
+}

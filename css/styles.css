@@ -1,0 +1,86 @@
+/*
+Colour Pallet:
+#74649B - main accent
+#9B646F - secondary accent
+#8B9B64 - main multi use colour
+#81c7b9 - secondary multi use colour
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 600;
+	background: url(../images/gun_metal.png) repeat 0 0;
+	position: relative;
+}
+
+nav > ul {
+	list-style-type: none;
+	background-color: rgba(94, 80, 100, 0.5);
+	height: 30px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	color: rgb(161, 144, 224);
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+}
+
+header > h1 {
+	color: rgb(161, 144, 224);
+	background-color: rgb(55, 51, 77);
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-weight: 500;
+	font-size: 70pt;
+}
+
+header > p {
+	color: #9b646f;
+	font-size: 25pt;
+	margin-bottom: 27px;
+}
+
+main {
+	flex: 1;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+footer {
+	position: fixed bottom;
+	padding: 10px;
+	background-color: rgba(94, 80, 100, 0.5);
+	margin-top: 50px;
+	color: white;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 2% 4% 2% 4%;
+}
