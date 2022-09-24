@@ -18,8 +18,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	background: url(../images/gun_metal.png) repeat 0 0;
 	position: relative;
@@ -52,7 +51,7 @@ header {
 header > h1 {
 	color: rgb(161, 144, 224);
 	background-color: rgb(55, 51, 77);
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	font-size: 70pt;
 }
